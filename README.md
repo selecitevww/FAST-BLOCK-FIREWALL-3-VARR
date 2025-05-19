@@ -16,7 +16,9 @@ YOU SEE TO ALLOW BLOCK OPTIONS FOR BLOCK OR ALLOW RULES
 > NETSH advfirewall firewall add rule name=" %RANDOM%" dir=out program=%bbc% action="allow" enable="yes"
 >
 > pause
+> 
 > cls
+> 
 > goto loop
 
 
